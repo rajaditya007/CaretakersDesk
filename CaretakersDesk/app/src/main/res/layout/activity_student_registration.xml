@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#abb"
+    tools:context=".StudentRegistrationActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="231dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logoo"
+        tools:ignore="ImageContrastCheck"
+        android:background="#abb"
+        android:layout_marginTop="00dp">
+
+    </ImageView>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+
+            android:layout_height="117dp"
+            android:background="#abb"
+            android:gravity="center"
+            android:text="Welcome to Caretaker's Desk"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/regname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button_background"
+            android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+            android:drawablePadding="10dp"
+            android:hint="Enter Your Full Name"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/regemail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_background"
+            android:drawableStart="@drawable/ic_mail"
+            android:drawablePadding="10dp"
+            android:hint="Enter Your Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/regpassword"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_background"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:drawableStart="@drawable/ic_baseline_lock_open_24"
+            android:drawablePadding="05dp"
+            android:hint="Enter Your Password"
+            android:inputType="textPassword"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="20dp"></EditText>
+
+
+        <EditText
+            android:id="@+id/regphoneno"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_background"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            android:drawablePadding="05dp"
+            android:hint="Enter Your Mobile Number"
+            android:inputType="phone"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textSize="20dp"></EditText>
+
+
+        <Button
+            android:id="@+id/Registerbutton"
+            android:layout_width="150dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+
+            android:background="@drawable/button_background"
+            android:text="Register Now"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="15dp"
+
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+

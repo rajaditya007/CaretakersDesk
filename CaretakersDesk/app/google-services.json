@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "160127939921",
+    "project_id": "caretaker-s-desk",
+    "storage_bucket": "caretaker-s-desk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160127939921:android:d78b4472b6042fa13d8f70",
+        "android_client_info": {
+          "package_name": "com.aditya1.caretakersdesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160127939921-e98uchf9qs0uvj3e35d0es47aitffqo1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aditya1.caretakersdesk",
+            "certificate_hash": "4ae31c7e40a56812360ca34d8de123347945ca76"
+          }
+        },
+        {
+          "client_id": "160127939921-n45tqbnvjrqt8k35i140ot1mfnsib5vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnZ86fL_8KJ8nbTW_mgKXEHe04Gij8d7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160127939921-n45tqbnvjrqt8k35i140ot1mfnsib5vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
