@@ -49,20 +49,6 @@ public class LoginActivity extends AppCompatActivity {
         user = FirebaseAuth.getInstance().getCurrentUser();
         loginPageQuestion= findViewById(R.id.loginPageQuestion);
         loginPageQuestion.setOnClickListener(new View.OnClickListener()
-
-
-         Retrofit retrofit = new Retrofit.Builder()
-    .baseUrl("http://<VM-IP>:8080/")  // Replace with your VM's IP address
-    .addConverterFactory(GsonConverterFactory.create())
-    .build();
-
-// Define your API endpoints interface
-public interface ApiService {
-    @GET("api/data")
-    Call<List<Data>> getData();
-}
-
-ApiService apiService = retrofit.create(ApiService.class);
                                     
 
 
